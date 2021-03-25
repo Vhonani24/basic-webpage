@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-webpage</title>
+    <style>
+    
+        body {
+            width: 90%;
+            padding: 3%;
+            background-color: #00868B;
+            font-family: 'Architects Daughter', cursive;
+            
+        }
+        p {
+            font-size: 17px;
+            color: white;
+            
+        }
+        h3 {
+            color: orange;
+            font-weight: bold;
+
+        }
+        h2 {
+            font-weight: 900;
+            /*color: white;*/
+            color: orange;
+        }
+        .language{
+            margin-bottom: 5%;
+        }
+        
+        .abu {
+            display: grid;
+            grid-template-columns: 100%;
+            margin: 3% 0 3% 0;
+        }
+
+        .abu img {
+            width: auto;
+            height: 200px;
+            margin: 0 2% 1% 0;
+            float:left;
+
+        }
+        
+        
+        .dot {
+            display: grid;
+          
+            grid-template-columns: 80%;
+        }
+     .dot img {
+        height: 200px;
+        width: auto;
+        float: right;
+
+     }
+        .dot p {
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 2px 2px blue;
+            
+        }
+        .historic {
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+        }
+        .historic .images img {
+            float: right;
+            width: auto;
+            height: 250px;
+            margin: 2% 1% 0;
+
+        }
+        .historic .images{
+            padding: 2%;
+
+        }
+        .historic h3{
+            margin-top: -4%;
+            text-align: center; 
+
+        }
+        table {
+            color: white;
+            background-color: grey;
+            width: 90%;
+        }
+        th {
+            background-color: orange;
+            height: 50px;
+        }
+        @media only screen and (width: 767px) {
+            .historic {
+                display: grid;
+                grid-template-columns: 100%;
+            }
+            .dot {
+                display: grid;
+                grid-template-columns: 100%;
+            }
+
+
+        }
+            
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="dot">
+        <p style="color: orange;">Vhonani Ramurunzi<img src="./images/table.jpg" class="me" /></p>
+
+    </div>
+    <div class="abu">
+        <h2>My bucket list dream destination: Abu Dhabi</h2>
+        <p>  <img class="abud" src="./images/abu.jpg" />
+            I would like to visit Abu Dhabi someday because it is the capital of the United Arab Emirates. Abu Dhabi is a well-ordered, industrious city with a pretty waterside location. The revenues transformed Abu Dhabi into the modern city of today and it is a  bustling center of government and business. The Sheikh Zayed Grand Mosque is the major tourist attraction and wows all who visit. It is a much calmer, more traditional city and more family and community led city. There's more focus on a good work-life balance in this city.</p>
+    </div>
+     
+
+    <div class="language">
+        <h2>A foreign language I would love to learn: Spanish</h2>
+        <p>
+            The reason why I want to learn spanish language is because it will make my travel experiences more exciting and rewarding. There are 21 countries in the world that have Spanish as an official language. Knowing the language will make my travel experiences in beautiful Spain and Latin America much easier. A good grasp of the Spanish language will be a valuable window into helping me learn about the true culture of the areas I visit, which will truly enhance my travel experience.
+
+
+        </p>
+        <TABLE BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+            <TR>
+               <TH>English Phrase</TH>
+               <TH>Foreign Language</TH>
+            </TR>
+            <TR ALIGN="CENTER">
+               <TD>My name is Vhonani</TD>
+               <TD>Mi nombre es Vhonani</TD>
+            </TR>
+            <TR ALIGN="CENTER">
+                <TD>I love to code</TD>
+                <TD>Me encanta codificar</TD>
+             </TR>
+             <TR ALIGN="CENTER">
+                <TD>I am beautiful</TD>
+                <TD>Soy hermosa</TD>
+             </TR>
+         </TABLE>
+
+    </div>
+    
+    <h2>Historic places in Cape Town</h2>
+    <div class="historic">
+        <div class="images">
+            <h3>District Six Museum</h3>
+            <img src="./images/district.jpg" alt="" />
+            <p>District Six Museum is a museum in the former inner-city residential area in Cape Town. The 3 interesting facts about it are the following: District Six has been celebrated in literature by writers such as Richard Rive, Alex la Guma and Bessie Head; in the paintings of Gerard Sekoto, Tyrone Appollis, Kenny Baker and Sandra McGregor; in the photography of Jackie Heyns, Wilfred Paulse and George Hallett. It is known for having provided a creative home for musicians such as Abdullah Ibrahim, Mervyn Africa, Trevor Jones and Robert Sithole. In 1994, the District Six Museum came into being. The museum came into being as a vehicle for advocating social justice, as a space for reflection and contemplation, and as an institution for challenging the distortions and half-truths which propped up the history of Cape Town and South Africa. </p>
+            
+
+        </div>
+        <div class="images">
+            <h3>Iziko Museum</h3>
+            <img src="./images/iziko.jpg" alt=""  />
+            <p>The Iziko South African Museum is a South African national museum located in Cape Town. The 3 interesting facts about it are the following : The museum was founded in 1825, the first in the country.IZIKO is an isiXhosa word, meaning ‘hearth’, traditionally and symbolically the social centre of the home; a place associated with warmth, kinship and ancestral spirits.It is one of the premier cultural institutions in South Africa.</p>
+            
+
+        </div>
+        <div class="images">
+            <h3>Iziko slave lodge </h3>
+            <img src="./images/iziko1.jpg" alt="" />
+            <p>The Slave Lodge is a South African social history museum located in Cape Town. The 3 interesting facts about it are the following : The Slave Lodge was built in 1679, making it the second oldest existing colonial structure of the Cape Colony, today known as Cape Town. 
+
+                The Slave Lodge housed the slaves who belonged to the Dutch East India Company (VOC). These slaves worked for the VOC and were never sold.The role that slaves played in developing the Cape Colony was only fully recognised by the museum during the 1990s. The building was renamed the Slave Lodge on Heritage Day, 1998.   </p>
+            
+
+        </div>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
